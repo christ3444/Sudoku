@@ -11,6 +11,8 @@
     <com.devchrist.sudoku.View.SudokuBoard
         android:id="@+id/SudokuBoard"
         custom:boardColor="@color/black"
+        custom:cellFillColor="#6600DDFF"
+        custom:cellHighlightColor="#2600DDFF"
         custom:layout_constraintBottom_toBottomOf="parent"
         custom:layout_constraintEnd_toEndOf="parent"
         custom:layout_constraintStart_toStartOf="parent"
