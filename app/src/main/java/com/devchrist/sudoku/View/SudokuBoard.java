@@ -123,13 +123,13 @@ public class SudokuBoard extends View {
 
     private void drawThickLine(){
         boardColorPaint.setStyle(Paint.Style.STROKE);
-        boardColorPaint.setStrokeWidth(10);
+        boardColorPaint.setStrokeWidth(4);
         boardColorPaint.setColor(boardColor);
     }
 
     private void drawThinLine(){
         boardColorPaint.setStyle(Paint.Style.STROKE);
-        boardColorPaint.setStrokeWidth(4);
+        boardColorPaint.setStrokeWidth(2);
         boardColorPaint.setColor(boardColor);
     }
 
